@@ -41,7 +41,7 @@ const characters = [
 // Routes
 
 // Basic route that sends the user first to the AJAX Page
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/view.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'view.html')));
 
 app.get('/add', (req, res) => res.sendFile(path.join(__dirname, 'add.html')));
 
